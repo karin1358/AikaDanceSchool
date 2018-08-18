@@ -5,6 +5,8 @@
 body{
   margin:0;
   font-family:"Hiragino Kaku Gothic ProN";
+  color:black;
+  font-weight: bold;
 }
 header{
   margin:0;
@@ -26,23 +28,44 @@ header a:hover{
 }
 .header-right li{
   display:inline-block;
-  float:left
+  float:left;
 }
 .header-right a{
   margin:28px;
   font-size:20px;
   color: white;
+
 }
 .icon{
   margin:5px;
   padding-top:10px;
+  padding-left: 20px;
   width:100px;
   height:24px;
   display: inline-block;
 }
+.icon li{
+  list-style:none;
+  display: inline-block;
+}
+.icon1{
+  width:50%;
+  margin:0;
+  padding:0;
+}
+.icon2{
+  margin:5px;
+  padding-top:10px;
+  height:24px;
+}
 .head-container{
   padding-top:28px;
 }
+
+.slide-itme img{
+  background-size: cover;
+}
+
 .top-wrapper{
   background-image: url(https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-9/17498717_432531117097351_5439272568744158357_n.jpg?_nc_cat=0&oh=aca751f0c0ea9a8e4c002e35eca3eb94&oe=5BC7D14B);
   background-size:100% 100%;
@@ -70,24 +93,45 @@ header a:hover{
   width:100%;
   padding-bottom: 20px;
   display:inline-block;
-  font-size: 12px;
+  font-size: 18px;
   color: black;
 }
-.concept, .event,.bonchi,.schedule,.ins-container{
+.concept h1,.event h1,.awards,.schedule h2,.ins-container,.pri-container,.pri-container,.bring h2{
   margin:10px 20px;
+  padding-top: 20px;
+  font-size: 36px;
 }
-.concept h1{
+.container{
+  background-image: url("https://images.pexels.com/photos/1045534/pexels-photo-1045534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size:cover;
+}
+.pre-container{
+    background: rgba(255,255,255,0.6);
+}
+.container h1{
   font-family:fantasy;
   border-bottom: 4px solid #0F0;
-  width:120px;
   letter-spacing:5px;
+  text-align: center;
 }
+.exp,.event li,.bonchi li{
+  text-align: center;
+  list-style: none;
+  margin: 15px;
+}s
 .event h1{
   font-family:fantasy;
   border-bottom: 4px solid #ff00ff;
-  width:120px;
   letter-spacing:5px;
+  text-align: center;
 }
+.awards{
+  font-family:fantasy;
+  border-bottom: 4px solid #00ffff;
+  letter-spacing:5px;
+  text-align: center;
+}
+
 footer{
   text-align: center;
   height:180px;
@@ -96,25 +140,30 @@ footer{
   background-color:black
 }
 
-
 /* Instructor */
 .ins-container{
   font-size: 24px;
   letter-spacing: 5px;
   font-family: fantasy;
 }
+.ins,.aika,.masato{
+  margin: 10px auto;
+  text-align: center;
+}
 .ins{
   width:210px;
-    border-bottom: 4px solid #ffff00;
+  border-bottom: 4px solid #ffff00;
 }
 .ins-container li{
   font-family:fantasy;
-  font-size: 16px;
+  font-size: 18px;
   padding-bottom: 5px;
+  margin-left:400px;
 }
 .ins-container img{
   height:350px;
   width:40%;
+
 }
 .aika{
   font-size: 50px;
@@ -131,16 +180,58 @@ footer{
   margin-top:0;
   margin-bottom: 0;
 }
-.awards{
-  font-family:fantasy;
-  border-bottom: 4px solid #00ffff;
-  letter-spacing:5px;
-  width:120px;
-}
 /* Lesson */
 .schedule h2{
-  width: 250px;
+  margin:15px auto;
+  width: 340px;
   font-family:fantasy;
   border-bottom: 4px solid #f00;
   letter-spacing:5px;
+}
+/* price */
+.pri-container {
+  font-size: 36px;
+  font-family: fantasy;
+  width: 260px;
+border-bottom: 4px solid #ff77ff;
+letter-spacing:5px;
+}
+.price h2,table,.bring h2{
+    margin:10px auto;
+}
+table{
+  text-align: center;
+}
+.tr{
+  background-color:#77ffff;
+}
+.tr2{
+  background-color:#ffff77;
+}
+.tr3{
+  background-color:#77ffff;
+}
+.bring h2{
+  font-family:fantasy;
+  border-bottom: 4px solid #ff77ff;
+  width:300px;
+  letter-spacing:5px;
+  padding-top:20px;
+}
+.bring li{
+  margin-left:500px;
+  line-height: 30px;
+}
+
+@media (max-width:1000px){
+  body{
+    width: auto;
+    margin: 0 auto;
+  }
+}
+@media (max-width:670px){
+  body{
+    width: auto;
+    padding:0 10px;
+  }
 }
