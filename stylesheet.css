@@ -1,4 +1,7 @@
 @charset "utf-8";
+*{
+  box-sizing: border-box;
+}
 .title{
   color:#02ccba
 }
@@ -40,24 +43,18 @@ header a:hover{
   margin:5px;
   padding-top:10px;
   padding-left: 20px;
-  width:100px;
-  height:24px;
+  width:120px;
+
   display: inline-block;
 }
-.icon li{
-  list-style:none;
-  display: inline-block;
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
-.icon1{
-  width:50%;
-  margin:0;
-  padding:0;
-}
-.icon2{
-  margin:5px;
-  padding-top:10px;
-  height:24px;
-}
+
 .head-container{
   padding-top:28px;
 }
@@ -67,7 +64,7 @@ header a:hover{
 }
 
 .top-wrapper{
-  background-image: url(https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-9/17498717_432531117097351_5439272568744158357_n.jpg?_nc_cat=0&oh=aca751f0c0ea9a8e4c002e35eca3eb94&oe=5BC7D14B);
+  background-image: url("https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-9/17498717_432531117097351_5439272568744158357_n.jpg?_nc_cat=0&oh=aca751f0c0ea9a8e4c002e35eca3eb94&oe=5BC7D14B");
   background-size:100% 100%;
   height:350px;
   width:auto;
@@ -97,13 +94,15 @@ header a:hover{
   color: black;
 }
 .concept h1,.event h1,.awards,.schedule h2,.ins-container,.pri-container,.pri-container,.bring h2{
-  margin:10px 20px;
+  margin:0 20px;
   padding-top: 20px;
   font-size: 36px;
 }
 .container{
   background-image: url("https://images.pexels.com/photos/1045534/pexels-photo-1045534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-size:cover;
+  background-size:100% 100%;
+  width: 100%;
+
 }
 .pre-container{
     background: rgba(255,255,255,0.6);
@@ -112,30 +111,37 @@ header a:hover{
   font-family:fantasy;
   border-bottom: 4px solid #0F0;
   letter-spacing:5px;
+  margin:auto;
+  width:210px;
   text-align: center;
 }
 .exp,.event li,.bonchi li{
   text-align: center;
   list-style: none;
   margin: 15px;
-}s
+  font-size: 20px
+}
 .event h1{
   font-family:fantasy;
   border-bottom: 4px solid #ff00ff;
   letter-spacing:5px;
-  text-align: center;
+   margin: 10px auto;
+    width:210px;
+    text-align: center;
 }
 .awards{
   font-family:fantasy;
   border-bottom: 4px solid #00ffff;
   letter-spacing:5px;
+  margin: 10px auto;
+  width:210px;
   text-align: center;
 }
 
 footer{
   text-align: center;
   height:180px;
-  padding-top: 15px;
+  padding-top:10px;
   color:white;
   background-color:black
 }
@@ -145,9 +151,10 @@ footer{
   font-size: 24px;
   letter-spacing: 5px;
   font-family: fantasy;
+  margin: 0;
 }
 .ins,.aika,.masato{
-  margin: 10px auto;
+  margin:auto;
   text-align: center;
 }
 .ins{
@@ -167,7 +174,6 @@ footer{
 }
 .aika{
   font-size: 50px;
-  letter-spacing:5px;
   color:#ff1493;
   font-family: fantasy;
   margin-top:0;
@@ -222,16 +228,67 @@ table{
   margin-left:500px;
   line-height: 30px;
 }
+/* other */
+.other{
+  text-align: center;
+  padding-top:20px;
+  height: 1000px;
+}
+.other h2{
+  border-bottom:4px solid #aa0000;
+  margin:auto;
+  width:210px;
+  text-align: center;
+}
+.other p{
+  padding-bottom: 30px;
+}
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
 
 @media (max-width:1000px){
   body{
-    width: auto;
+    width: 50%;
     margin: 0 auto;
+  }
+  .studio{
+    padding:auto 0;
+  }
+  .studio img{
+    width: 100%;
+  }
+  .ins-container li{
+    margin-left: 0;
+    font-size: 14px;
+  }
+  .header-right{
+    display: none;
+  }
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: block;
   }
 }
 @media (max-width:670px){
   body{
-    width: auto;
+    width: 100%;
     padding:0 10px;
+  }
+  .studio{
+    padding:auto 0;
+  }
+  .studio img{
+  width: 100%;
+  }
+  .ins-container li{
+    margin-left: 0;
   }
 }
