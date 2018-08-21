@@ -263,6 +263,12 @@ overflow: hidden;
     margin-left: 0;
     font-size: 14px;
   }
+  .header-right{
+    padding-left:0;
+  } 
+  .menu{
+    margin:0;
+  }
   .menu-single{
     margin:0;
   }
