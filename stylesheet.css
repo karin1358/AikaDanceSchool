@@ -272,16 +272,17 @@ overflow: hidden;
   .menu>.menu-single li{
     position:relative;
   }
-  .menu-single li, .menu-second ul{
+ .menu-single li, .menu-second ul{
     position:absolute;
-    top: 40px;
+    top: 10px;
     width: 100%;
+    color: white;
     background: #072a24;
     -webkit-transition:all .2s ease;
     transition: all 0.2s ease;
   }
   .menu-single li:hover .menu-second ul{
-    top: 50px;
+    top: 10px;
     visibility: visible;
     opacity: 1;
   }
