@@ -263,6 +263,9 @@ overflow: hidden;
     margin-left: 0;
     font-size: 14px;
   }
+  .menu-single{
+    margin:0;
+  }
 .menu-second li{
     display: none;
   }
@@ -285,7 +288,7 @@ overflow: hidden;
  .icon{
     display: block;
     margin-top:5px;
-   max-width:50px;
+   max-width:120px;
   }
   .head-container{
     padding-top:10px;
