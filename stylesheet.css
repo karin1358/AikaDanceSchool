@@ -285,6 +285,9 @@ overflow: hidden;
     visibility: visible;
     opacity: 1;
   }
+    .icon{
+    display: block;
+  }
 }
 @media (max-width:670px){
   body{
@@ -300,4 +303,5 @@ overflow: hidden;
   .ins-container li{
     margin-left: 0;
   }
+  
 }
