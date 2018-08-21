@@ -263,7 +263,7 @@ overflow: hidden;
     margin-left: 0;
     font-size: 14px;
   }
-  .header-right{
+  .header-right>ul.menu-second{
     display: none;
   }
   .menu>li.menu-single{
