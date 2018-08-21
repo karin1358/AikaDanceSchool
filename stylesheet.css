@@ -37,7 +37,6 @@ header a:hover{
   margin:28px;
   font-size:20px;
   color: white;
-
 }
 .icon{
   margin:5px;
@@ -263,18 +262,8 @@ overflow: hidden;
     margin-left: 0;
     font-size: 14px;
   }
-  .header-right{
-    padding-left:0;
-  } 
-  .menu{
-    margin:0;
-  }
-  .menu-single{
-    margin:0;
-  }
-.menu-second li{
-    display: none;
-  }
+
+
   .menu>.menu-single li{
     position:relative;
   }
@@ -282,7 +271,6 @@ overflow: hidden;
     position:absolute;
     top: 10px;
     width: 100%;
-    color: white;
     background: #072a24;
     -webkit-transition:all .2s ease;
     transition: all 0.2s ease;
