@@ -263,13 +263,13 @@ overflow: hidden;
     margin-left: 0;
     font-size: 14px;
   }
-.menu-second {
+.menu-second li{
     display: none;
   }
-  .menu>li.menu-single{
+  .menu>.menu-single li{
     position:relative;
   }
-  li.menu-single ul.menu-second{
+  .menu-single li .menu-second ul{
     position:absolute;
     top: 40px;
     width: 100%;
@@ -277,7 +277,7 @@ overflow: hidden;
     -webkit-transition:all .2s ease;
     transition: all 0.2s ease;
   }
-  li.menu-single:hover ul.menu-second{
+  .menu-single li:hover .menu-second ul{
     top: 50px;
     visibility: visible;
     opacity: 1;
