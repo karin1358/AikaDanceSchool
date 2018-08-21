@@ -262,7 +262,9 @@ overflow: hidden;
     margin-left: 0;
     font-size: 14px;
   }
-
+.menu-second li{
+    display: none;
+  }
 
   .menu>.menu-single li{
     position:relative;
