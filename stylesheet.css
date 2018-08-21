@@ -282,10 +282,12 @@ overflow: hidden;
     visibility: visible;
     opacity: 1;
   }
-  .icon{
+ .icon{
     display: block;
     margin-top:5px;
+    margin-right: 0;
     width:50px;
+    padding-left: 0;
   }
   .head-container{
     padding-top:10px;
