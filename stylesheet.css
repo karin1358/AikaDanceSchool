@@ -303,5 +303,19 @@ overflow: hidden;
   .ins-container li{
     margin-left: 0;
   }
-  
+    .menu>li.menu-single{
+    position:relative;
+  }
+  li.menu-single ul.menu-second{
+    position:absolute;
+    top: 40px;
+    width: 100%;
+    background: #072a24;
+    -webkit-transition:all .2s ease;
+    transition: all 0.2s ease;
+  }
+  li.menu-single:hover ul.menu-second{
+    top: 50px;
+    visibility: visible;
+    opacity:1;
 }
