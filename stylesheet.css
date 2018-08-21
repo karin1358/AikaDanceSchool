@@ -269,7 +269,7 @@ overflow: hidden;
   .menu>.menu-single li{
     position:relative;
   }
-  .menu-single li .menu-second ul{
+  .menu-single li, .menu-second ul{
     position:absolute;
     top: 40px;
     width: 100%;
