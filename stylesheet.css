@@ -296,6 +296,7 @@ overflow: hidden;
     display: block;
     margin-top:5px;
    max-width:120px;
+   margin-right:0;
   }
   .head-container{
     padding-top:10px;
