@@ -44,16 +44,13 @@ header a:hover{
   padding-top:10px;
   padding-left: 20px;
   width:120px;
-
   display: inline-block;
 }
-.menu-single {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+
+.menu>li.menu-single{
+display: none;
 }
+
 
 .head-container{
   padding-top:28px;
@@ -269,7 +266,7 @@ overflow: hidden;
   .header-right{
     display: none;
   }
-    .menu>li.menu-single{
+  .menu>li.menu-single{
     position:relative;
   }
   li.menu-single ul.menu-second{
@@ -285,11 +282,16 @@ overflow: hidden;
     visibility: visible;
     opacity: 1;
   }
-    .icon{
+  .icon{
     display: block;
-      margin:5px;
+    margin-top:5px;
   }
-}
+  .head-container{
+    padding-top:10px;
+  }
+
+  }
+
 @media (max-width:670px){
   body{
     width: 100%;
@@ -304,24 +306,7 @@ overflow: hidden;
   .ins-container li{
     margin-left: 0;
   }
-    .menu>li.menu-single{
-    position:relative;
-  }
-  li.menu-single ul.menu-second{
-    position:absolute;
-    top: 40px;
-    width: 100%;
-    background: #072a24;
-    -webkit-transition:all .2s ease;
-    transition: all 0.2s ease;
-  }
-  li.menu-single:hover ul.menu-second{
-    top: 50px;
-    visibility: visible;
-    opacity:1;
-}
-  .icon{
-    display: block;
-      margin:5px;
+  .head-container{
+    padding-top:10px;
   }
 }
