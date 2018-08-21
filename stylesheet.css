@@ -285,6 +285,7 @@ overflow: hidden;
   .icon{
     display: block;
     margin-top:5px;
+    width:50px;
   }
   .head-container{
     padding-top:10px;
