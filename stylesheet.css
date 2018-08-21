@@ -263,7 +263,7 @@ overflow: hidden;
     margin-left: 0;
     font-size: 14px;
   }
-.menu-second ul{
+.menu-second li{
     display: none;
   }
   .menu>li.menu-single{
