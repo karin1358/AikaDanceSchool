@@ -46,9 +46,7 @@ header a:hover{
   display: inline-block;
 }
 
-.menu>li.menu-single{
-display: none;
-}
+
 
 
 .head-container{
@@ -262,26 +260,8 @@ overflow: hidden;
     margin-left: 0;
     font-size: 14px;
   }
-.menu-second {
-    display: none;
-  }
 
-  .menu>.menu-single li{
-    position:relative;
-  }
- .menu-single li, .menu-second ul{
-    position:absolute;
-    top: 10px;
-    width: 100%;
-    background: #072a24;
-    -webkit-transition:all .2s ease;
-    transition: all 0.2s ease;
-  }
-  .menu-single li:hover .menu-second ul{
-    top: 10px;
-    visibility: visible;
-    opacity: 1;
-  }
+
  .icon{
     display: block;
     margin-top:5px;
