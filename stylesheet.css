@@ -46,9 +46,6 @@ header a:hover{
   display: inline-block;
 }
 
-
-
-
 .head-container{
   padding-top:28px;
 }
@@ -96,7 +93,6 @@ header a:hover{
   background-image: url("https://images.pexels.com/photos/1045534/pexels-photo-1045534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size:100% 100%;
   width: 100%;
-
 }
 .pre-container{
     background: rgba(255,255,255,0.6);
@@ -109,7 +105,7 @@ header a:hover{
   width:210px;
   text-align: center;
 }
-.exp,.event li,.bonchi li{
+.exp,.event li,.bonchi li,.concept h3,.concept p{
   text-align: center;
   list-style: none;
   margin: 15px;
@@ -245,6 +241,20 @@ height: 0;
 overflow: hidden;
 }
 
+
+.fadeIn h1{
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition : all 300ms;
+}
+.fadeIn h1.scrollIn {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+
+
+
+
 @media (max-width:1000px){
   body{
     width: 50%;
@@ -260,7 +270,9 @@ overflow: hidden;
     margin-left: 0;
     font-size: 14px;
   }
-
+.ins-container img{
+  width:100%;
+}
 
  .icon{
     display: block;
@@ -282,14 +294,20 @@ overflow: hidden;
     width: 100%;
     padding:0 10px;
   }
+  .event li,.bonchi li,.other p{
+    font-size:12px;
+  }
   .studio{
     padding:0;
   }
   .studio img{
-  width: 100%;
+  width: 80%;
   }
   .ins-container li{
     margin-left: 0;
+  }
+  .ins-container img{
+    width:80%;
   }
   .head-container{
     padding-top:10px;
