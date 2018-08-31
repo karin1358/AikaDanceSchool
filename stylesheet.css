@@ -332,6 +332,9 @@ padding-top: 36px;
     width: 50%;
     margin: 0 auto;
   }
+  .header-right{
+  font-size: 10px;
+}
 .slider img{
   height:300px;
   width: 100%;
@@ -382,6 +385,9 @@ padding-top: 36px;
     width: 100%;
     padding:0 10px;
   }
+  .header-right{
+  font-size: 10px;
+}
   .slider img{
     height:300px;
     width: 100%;
