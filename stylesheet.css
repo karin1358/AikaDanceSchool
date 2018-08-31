@@ -336,7 +336,6 @@ padding-top: 36px;
   height:300px;
   width: 100%;
 }
-
   .studio{
     padding:auto 0;
   }
@@ -364,6 +363,11 @@ padding-top: 36px;
   }
   /* schedule */
 .schedule table{
+  font-size: 14px;
+  height:50%;
+  width:50%;
+}
+.price table{
   font-size: 14px;
   height:50%;
   width:50%;
