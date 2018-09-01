@@ -332,17 +332,11 @@ padding-top: 36px;
     width: 50%;
     margin: 0 auto;
   }
- .header-right{
+  .header-right{
     width:70%;
-   height:70%;
   }
-  .icon,.header-right a,.header a,.ins-container li,.menu li,.schedule table,.bring li,.price table{
-   font-size:12px;
- }
-  .icon, .icon a{
-  margin:0;
-  padding:5px;
-    display:block;
+  .header-right a{
+    font-size: 12px;
   }
 .slider img{
   height:300px;
@@ -356,17 +350,18 @@ padding-top: 36px;
   }
   .ins-container li{
     margin-left: 0;
+    font-size: 14px;
   }
 .ins-container img{
   width:100%;
 }
-
   .head-container{
     padding-top:10px;
   }
-  
+
   /* schedule */
 .schedule table{
+  font-size: 14px;
   height:50%;
   width:50%;
 }
@@ -382,26 +377,22 @@ padding-top: 36px;
 
 @media (max-width:670px){
   body{
-    width: 70%;
+    width: 100%;
     padding:0 10px;
-  } 
-  .header-right{
-    width:80%;
   }
- .icon p,.header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
-  font-size: 12px;
-}
-.icon, .icon a{
-  margin:0;
-  padding:5px;
-  display:block;
+  .header-right a{
+    font-size: 10px;
   }
-  
+   .header-right,.icon{
+    width:70%;
+  }
   .slider img{
     height:300px;
     width: 100%;
   }
-  
+  .event li,.bonchi li,.other p{
+    font-size:12px;
+  }
   .studio{
     padding:0;
   }
@@ -416,6 +407,9 @@ padding-top: 36px;
   }
   .head-container{
     padding-top:10px;
+  }
+    .menu{
+    font-size: 12px;
   }
   .bring li{
     display: inline;
