@@ -339,9 +339,10 @@ padding-top: 36px;
   .icon,.header-right a,.header a,.ins-container li,.menu li,.schedule table,.bring li,.price table{
    font-size:12px;
  }
-  .icon{
+  .icon, .icon a{
   margin:0;
   padding:5px;
+    display:block;
   }
 .slider img{
   height:300px;
@@ -390,9 +391,10 @@ padding-top: 36px;
  .icon p,.header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
   font-size: 12px;
 }
-.icon p{
+.icon, .icon a{
   margin:0;
   padding:5px;
+  display:block;
   }
   
   .slider img{
