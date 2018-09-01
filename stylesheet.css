@@ -333,11 +333,11 @@ padding-top: 36px;
     margin: 0 auto;
   }
  .header-right{
-    width:80%;
-   height:80%;
+    width:70%;
+   height:70%;
   }
   .icon,.header-right a,.header a,.ins-container li,.menu li,.schedule table,.bring li,.price table{
-   font-size:14px;
+   font-size:12px;
  }
 .slider img{
   height:300px;
@@ -382,11 +382,11 @@ padding-top: 36px;
 
 @media (max-width:670px){
   body{
-    width: 100%;
+    width: 70%;
     padding:0 10px;
   } 
   .header-right{
-    width:100%;
+    width:80%;
   }
   .icon,.header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
   font-size: 12px;
