@@ -359,12 +359,7 @@ padding-top: 36px;
 .ins-container img{
   width:100%;
 }
- .icon{
-    display: block;
-    margin-top:5px;
-   max-width:120px;
-   margin-right:0;
-  }
+
   .head-container{
     padding-top:10px;
   }
@@ -392,7 +387,7 @@ padding-top: 36px;
   .header-right{
     width:80%;
   }
-  .icon,.header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
+ .header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
   font-size: 12px;
 }
 .icon{
