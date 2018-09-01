@@ -333,7 +333,7 @@ padding-top: 36px;
     margin: 0 auto;
   }
   .header-right{
-    width:70%;
+    width:90%;
   }
   .header-right a{
     font-size: 12px;
@@ -383,8 +383,8 @@ padding-top: 36px;
   .header-right a{
     font-size: 10px;
   }
-   .header-right,.icon{
-    width:70%;
+   .header-right{
+    width:90%;
   }
   .slider img{
     height:300px;
