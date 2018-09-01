@@ -333,9 +333,10 @@ padding-top: 36px;
     margin: 0 auto;
   }
  .header-right{
-    width:50%;
+    width:80%;
+   height:80%;
   }
-  header .icon,.header-right a,.header a,.ins-container li,.menu li,.schedule table,.bring li,.price table{
+  .icon,.header-right a,.header a,.ins-container li,.menu li,.schedule table,.bring li,.price table{
    font-size:14px;
  }
 .slider img{
@@ -385,9 +386,9 @@ padding-top: 36px;
     padding:0 10px;
   } 
   .header-right{
-    width:50%;
+    width:80%;
   }
-  header icon,.header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
+  .icon,.header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
   font-size: 12px;
 }
 
