@@ -387,10 +387,10 @@ padding-top: 36px;
   .header-right{
     width:80%;
   }
- .header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
+ .icon p,.header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
   font-size: 12px;
 }
-.icon{
+.icon p{
   margin:0;
   padding:5px;
   }
