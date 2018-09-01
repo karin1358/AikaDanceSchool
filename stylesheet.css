@@ -335,7 +335,7 @@ padding-top: 36px;
  .header-right{
     width:50%;
   }
-  .header-right a,.header a,.ins-container li,.menu li,.schedule table,.bring li,.price table{
+  header a,.header-right a,.header a,.ins-container li,.menu li,.schedule table,.bring li,.price table{
    font-size:14px;
  }
 .slider img{
@@ -387,12 +387,10 @@ padding-top: 36px;
   .header-right{
     width:50%;
   }
-  .header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
+  header a,.header-right a,.event li,.bonchi li,.other p,.menu,.bring li,.price table{
   font-size: 12px;
 }
- .header a{
-   font-size:14px;
- }
+
   .slider img{
     height:300px;
     width: 100%;
